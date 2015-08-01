@@ -1,0 +1,28 @@
+{
+  "name": "vertxbus",
+  "version": "0.0.0",
+  "homepage": "https://github.com/guillemsalas/vertxbus",
+  "authors": [
+    "Guillem Salas <guillemsalas@gmail.com>"
+  ],
+  "description": "Vert.x Event Bus Bridge",
+  "main": "vertxbus.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "vert.x"
+  ],
+  "license": "Apache 2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sockjs-client": "~1.0.3"
+  }
+}
